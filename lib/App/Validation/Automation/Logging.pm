@@ -13,6 +13,12 @@ Logs message in the log file.The log filename is base script name followed by da
 
 requires qw( log_file_handle );
 
+=head2 log
+
+Logs messages with timestamp and caller info.
+
+=cut
+
 sub log {
 
     my $self = shift;
